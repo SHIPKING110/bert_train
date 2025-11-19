@@ -30,3 +30,4 @@ if __name__ == '__main__':
     dataset = MyDataset("train")
     for data in dataset:
         print(data)
+
