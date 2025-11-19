@@ -145,3 +145,4 @@ if __name__ == '__main__':
         if no_improve_epochs >= PATIENCE:
             print(f"⛔ EarlyStopping 触发，连续 {PATIENCE} 轮验证集未提升，训练终止")
             break
+
